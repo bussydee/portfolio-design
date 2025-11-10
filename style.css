@@ -64,7 +64,7 @@ body{
 }
 
 .hero-text{
-    font-size: clamp(10rem, 6vh, 12rem);
+    font-size: clamp(4rem, 10vw, 10rem);
     font-weight: bold;
     position: absolute;
     bottom: -50px;
@@ -80,7 +80,8 @@ body{
 
 .cta {
     display: flex;
-    width: 1640px;
+    max-width: 1200px;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
@@ -191,8 +192,8 @@ body{
 }
 
 .showcase-item {
-    width: 1200px;
-    max-width: 90%;
+    width: 100%;
+    max-width: 1200px;
     margin: 1rem auto;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
